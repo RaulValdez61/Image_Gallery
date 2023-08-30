@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Le Petit Louvre Gallery</title>
+
+<style>
+
+    /* Alinea los headers tipo 1 y 3 al centro de la pagina */
+    h1, h3 {text-align: center;}
+
+    /* Boton del menu desplegable */
+.dropbtn {
+    background-color: #314a9b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* DIV que contiene el menu desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Contenido del menu desplegable, no se ve por defecto */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #162146;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links dentro del menu desplegable*/
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambiar el color al pasar el raton sobre el menu desplegable */
+.dropdown-content a:hover {
+    background-color: #324c9f;
+}
+
+/* Mostrar menu desplegable al mostrar el raton */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Cambiar el color del boton al ser mostrado */
+.dropdown:hover .dropbtn {
+    background-color: #213269;
+}
+</style>
+</head>
+ <!-- Cambia el color del fondo de la pagina -->
+<body bgcolor="#04043c">
+
+<h1 style="color: whitesmoke;" ><u>Le Petit Louvre</u></h1>
+
+<h3 style="color: whitesmoke;" >Art Gallery///Galeria De Arte</h3>
+
+<!-- Menu desplegable que muestra artistas franceses -->
+<div class="dropdown">
+    <button class="dropbtn">France</button>
+    <div class="dropdown-content">
+        <a href="Claude_Monet.html">Claude Monet</a>
+        <a href="Georges_Braque.html">Georges Braque</a>
+        <a href="Georges-Pierre_Seurat.html">Georges-Pierre Seurat</a>
+    </div>
+</div>
+
+<!-- Menu desplegable que muestra artistas japoneses -->
+<div class="dropdown">
+    <button class="dropbtn">Japan</button>
+    <div class="dropdown-content">
+        <a href="Hirohiko_Araki.html">Hirohiko Araki</a>
+        <a href="Katsushika_Hokusai.html">Katsushika Hokusai</a>
+        <a href="Junji_Ito.html">Junji Ito</a>
+    </div>
+</div>
+
+<!-- Menu desplegable que muestra artistas italianos -->
+<div class="dropdown">
+    <button class="dropbtn">Italy</button>
+    <div class="dropdown-content">
+        <a href="Leonardo_da_Vinci.html">Leonardo da Vinci</a>
+        <a href="Michelangelo_Buonarroti.html">Michelangelo Buonarroti</a>
+        <a href="Donato_di_Niccolo_di_Betto_Bardi.html">Donato di Niccolò di Betto Bardi</a>
+    </div>
+</div>
+
+</body>
+
+
+</html>
