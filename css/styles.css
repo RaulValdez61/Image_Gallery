@@ -6,7 +6,7 @@ svg {
 }
 
 svg text {
-	animation: stroke 2s alternate;
+	animation: stroke 5s infinite alternate;
 	stroke-width: 2;
 	stroke: white;
 	font-size: 100px;
